@@ -1,5 +1,5 @@
 #!/bin/bash
 
-SERVICENAME='sc-env'
+SERVICENAME='flowcyto'
 
 docker-compose exec $SERVICENAME bash
