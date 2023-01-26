@@ -16,7 +16,6 @@ nav_order: 2
 ### Start a new Docker container
 
 Run
-
 ```bdstart CONTAINERNAME```
 
 All Docker containers available can be autocompleted if you type the first letter followed by the ```Tab``` command (e.g. ```bdstart d[+Tab]```). The updated list of the Docker containers available is available in the [homepage](./index)
@@ -24,8 +23,12 @@ All Docker containers available can be autocompleted if you type the first lette
 ### Connect to a running Docker container
 
 Run
-
 ```bdstart CONTAINERNAME```
+
+### End the analysis and close Docker container
+
+Run
+```bdend CONTAINERNAME```
 
 ## Install Visual Studio Code
 
