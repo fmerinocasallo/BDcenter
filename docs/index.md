@@ -4,4 +4,13 @@ layout: default
 nav_order: 1
 ---
 
-This is the website of the Biomedical Data Center
+This is the website of the Biomedical Data Center.
+
+List of all Docker containers avaialble:
+
+- commbini-env
+- datascience-env (JupyterLab and Rstudio)
+- flocyto-env (based on [CytoExploreR](https://dillonhammill.github.io/CytoExploreR/))
+- image3d-env (to run [3D Slicer](https://www.slicer.org/) in a Jupyter Notebook)
+- sc-env
+- slicer-env (to run the [3D Slicer](https://www.slicer.org/) GUI)
