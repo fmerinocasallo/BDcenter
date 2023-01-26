@@ -27,7 +27,9 @@ Run
 
 ### End the analysis and close Docker container
 
-Run
+You detach from the docker terminal by pressing ```Ctrl + d```
+
+After detaching, run
 ```bdend CONTAINERNAME```
 
 ## Install Visual Studio Code

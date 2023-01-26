@@ -10,6 +10,7 @@ List of all Docker containers avaialble:
 
 - commbini-env
 - datascience-env (JupyterLab and Rstudio)
+- fiji-env (to run the [Fiji](https://imagej.net/software/fiji/) GUI)
 - flocyto-env (based on [CytoExploreR](https://dillonhammill.github.io/CytoExploreR/))
 - image3d-env (to run [3D Slicer](https://www.slicer.org/) in a Jupyter Notebook)
 - sc-env
