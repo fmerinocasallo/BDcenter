@@ -13,9 +13,13 @@ Follow the [instructions](https://code.visualstudio.com/docs/remote/ssh) to inst
 
 ## Connect to the BD Workstation
 
-You need to be connected to KU Leuven Zone-A
+You need to be connected to KU Leuven Zone-A.
 
-```ssh u0128401@gbw-d-l0151```
+The ssh command to login is the one below:
+
+```ssh uxxxxxxx@gbw-d-l0151```
+
+Where you have to insert your u/r number.
 
 ## Mount KUL drives
 
