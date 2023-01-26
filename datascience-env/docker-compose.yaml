@@ -16,6 +16,7 @@ services:
     working_dir: /home/researcher
     container_name: $COMPOSE_PROJECT_NAME
     entrypoint: bash /entrypoint.sh
+    user: root
     hostname: $HOST_NAME
     environment:
        - JLPORT=${JLPORT}
