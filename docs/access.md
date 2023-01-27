@@ -13,7 +13,7 @@ nav_order: 2
 >
 >Follow the [instructions](https://code.visualstudio.com/docs/remote/ssh) to install [Visual Studio Code](https://code.visualstudio.com/) and its [Remote-SSH extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 >
-> - Connect to the BD Workstation
+>- Connect to the BD Workstation
 >
 > You need to be connected to KU Leuven Zone-A.
 > The ssh command to login is the one below:
@@ -28,7 +28,8 @@ nav_order: 2
 >
 >```git clone https://github.com/gabnasello/BDcenter.git```
 >
-> - Contact one of the administrators (Gabriele, Edo, Tim) to be added to the [```docker```](./admin_notes#add-new-user-to-docker-group) group
+>- Contact one of the administrators (Gabriele, Edo, Tim) to be added to the [```docker```](./admin_notes#add-new-user-to-docker-group) group
+>
 ---
 
 ## Run a Docker container
