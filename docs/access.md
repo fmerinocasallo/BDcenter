@@ -28,7 +28,7 @@ nav_order: 2
 >
 >```git clone https://github.com/gabnasello/BDcenter.git```
 >
->- Contact one of the administrators (Gabriele, Edo, Tim) to be added to the [```docker```](./admin_notes#add-new-user-to-docker-group) group
+>- Ask one of the administrators (Gabriele, Edo, Tim) to add you to the [```docker```](./admin_notes#add-new-user-to-docker-group) group
 >
 ---
 
