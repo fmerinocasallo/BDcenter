@@ -6,7 +6,8 @@ SERVICENAME='image3d'
 JUPYTERPORT=`python3 -c "import socket; s=socket.socket(); s.bind(('',0)); print(s.getsockname()[1]); s.close()"`
 export JUPYTERPORT
 
-HOST_NAME=${HOSTNAME}
+#HOST_NAME=${HOSTNAME}
+HOST_NAME='localhost'
 export HOST_NAME
 RES_UID=$UID
 export RES_UID

@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  sc-env:
+  scenv:
     build:
       context: .
       dockerfile: Dockerfile
@@ -12,9 +12,9 @@ services:
       - $HOME_RESEARCHER:/home/researcher # change the path before ":" with the volume you want to mount
     working_dir: /home/researcher
     container_name: $COMPOSE_PROJECT_NAME
-    entrypoint: bash /entrypoint.sh
+    #entrypoint: bash /entrypoint.sh
     hostname: $HOST_NAME
-    user: root
+    #user: root
     environment:
        - JLPORT=${JLPORT}
        - RSPORT=${RSPORT}

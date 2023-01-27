@@ -1,5 +1,5 @@
 #!/bin/bash
 
-SERVICENAME='sc-env'
+SERVICENAME='scenv'
 
 docker-compose exec $SERVICENAME bash

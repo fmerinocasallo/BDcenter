@@ -6,7 +6,8 @@ SERVICENAME='slicer'
 GUIPORT=`python3 -c "import socket; s=socket.socket(); s.bind(('',0)); print(s.getsockname()[1]); s.close()"`
 export GUIPORT
 
-HOST_NAME=${HOSTNAME}
+#HOST_NAME=${HOSTNAME}
+HOST_NAME='localhost'
 export HOST_NAME
 
 envsubst < env_usertemplate > .env
