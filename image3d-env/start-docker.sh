@@ -16,4 +16,4 @@ export RES_GID
 
 envsubst < env_usertemplate > .env
 
-docker-compose up --build 
+docker compose up --build 

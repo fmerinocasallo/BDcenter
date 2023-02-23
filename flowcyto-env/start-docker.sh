@@ -15,6 +15,6 @@ export HOST_NAME
 
 envsubst < env_usertemplate > .env
 
-docker-compose up -d --build
+docker compose up -d --build
 
-docker-compose exec $SERVICENAME bash
+docker compose exec $SERVICENAME bash

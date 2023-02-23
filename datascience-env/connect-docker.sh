@@ -2,4 +2,4 @@
 
 SERVICENAME='datascience'
 
-docker-compose exec $SERVICENAME bash
+docker compose exec $SERVICENAME bash

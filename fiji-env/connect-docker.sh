@@ -2,4 +2,4 @@
 
 SERVICENAME='fiji'
 
-docker-compose exec $SERVICENAME bash
+docker compose exec $SERVICENAME bash
