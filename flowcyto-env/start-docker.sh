@@ -12,6 +12,10 @@ export RSPORT
 #HOST_NAME=${HOSTNAME}
 HOST_NAME='localhost'
 export HOST_NAME
+RES_UID=$UID
+export RES_UID
+RES_GID=$(id -g)
+export RES_GID
 
 envsubst < env_usertemplate > .env
 
