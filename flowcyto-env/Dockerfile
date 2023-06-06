@@ -16,3 +16,5 @@ USER root
 RUN groupadd -g ${RES_GID} ${RES_USER} &&\
     useradd -l -m -s /bin/bash -N -p "$(openssl passwd -6 researcher)" -u "${RES_UID}" "${RES_USER}" -g ${RES_GID} -G sudo -G users &&\
     echo 'researcher ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+
+USER researcher

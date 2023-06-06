@@ -10,7 +10,7 @@ services:
         RES_GID: ${RES_GID:-0}
     ports:
       - 7777:7777
-      - 7878:7878
+      - $RSPORT:7878
     volumes:
       - $HOME_RESEARCHER:/home/researcher # change the path before ":" with the volume you want to mount
     working_dir: /home/researcher
@@ -18,6 +18,7 @@ services:
     hostname: $HOST_NAME
     user: root
     environment:
+       - RSPORT=${RSPORT}
        - USER_RESEARCHER=${USER_RESEARCHER}
        - COMPOSE_PROJECT_NAME=${COMPOSE_PROJECT_NAME}
        - HOST_NAME=${HOST_NAME}
