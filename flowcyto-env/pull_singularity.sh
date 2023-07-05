@@ -3,6 +3,6 @@
 VERSION='2023-06-04'
 DOCKERIMAGE='gnasello/flowcyto-env'
 
-IMAGENAME='flowcyto-env.img'
+IMAGENAME='flowcyto-env.sif'
 
 singularity pull --name $IMAGENAME docker://$DOCKERIMAGE:$VERSION
