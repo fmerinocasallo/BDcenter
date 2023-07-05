@@ -1,1 +1,7 @@
 */.env
+*.img
+*.sif
+*.out
+flowcyto-env/run*
+flowcyto-env/var-lib-rstudio-server*
+flowcyto-env/database.conf
