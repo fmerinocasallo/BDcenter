@@ -5,4 +5,4 @@ DOCKERIMAGE='gnasello/slicer-env'
 
 IMAGENAME='slicer-env.sif'
 
-singularity pull --name $IMAGENAME docker-daemon:$DOCKERIMAGE:$VERSION
+singularity pull --name $IMAGENAME docker://$DOCKERIMAGE:$VERSION
