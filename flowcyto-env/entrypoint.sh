@@ -22,9 +22,9 @@ nohup jupyter lab --no-browser --notebook-dir=$HOME --ip=0.0.0.0 --port=$JLPORT 
 
 echo -e $GREEN'\n   JupyterLab \n'$NOCOLOR
 
-sleep 1.5
+sleep 2
 
-jupyter server list
-#sed -n 56,60p jupyter_server_output.out
+#jupyter server list
+sed -n 54p jupyter_server_output.out
 
 echo -e '\n Press `CTRL + D` To close the container \n'
