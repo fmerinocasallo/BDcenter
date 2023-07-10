@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION='2023-07-05'
+VERSION='2023-06-04'
 DOCKERIMAGE='gnasello/flowcyto-env'
 
 IMAGENAME='flowcyto-env.sif'

@@ -6,10 +6,7 @@ INSTANCENAME='napari-env_'$USER
 
 xhost +local:*
 
-singularity instance start \
-   --bind /tmp:/home/jovyan,/mnt:/mnt \
-   $IMAGENAME \
-   $INSTANCENAME
+singularity instance start $IMAGENAME $INSTANCENAME
 
 singularity exec instance://$INSTANCENAME /bin/bash entrypoint.sh
 
