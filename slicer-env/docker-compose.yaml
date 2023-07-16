@@ -1,0 +1,23 @@
+---
+version: "3"
+services:
+  slicer-env:
+    image: gnasello/slicer-env:latest
+    security_opt:
+      - seccomp:unconfined # for terminal to work
+    environment:
+      - PUID=$RES_UID
+      - PGID=$RES_GID
+      - TZ=Etc/UTC
+      - TITLE=3D Slicer #optional
+    container_name: $COMPOSE_PROJECT_NAME
+    volumes:
+      - $HOME_RESEARCHER:/config/researcher_home
+    ports:
+      - $WEBPORT:3000
+    environment:
+       - WEBPORT=${WEBPORT}
+       - COMPOSE_PROJECT_NAME=${COMPOSE_PROJECT_NAME}
+       - HOME_RESEARCHER=${HOME_RESEARCHER}
+       - RES_UID=${RES_UID}
+       - RES_GID=${RES_GID}
