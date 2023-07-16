@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION='2023-07-16 '
+VERSION='latest'
 DOCKERIMAGE='gnasello/datascience-env'
 
 IMAGENAME='datascience-env.sif'
