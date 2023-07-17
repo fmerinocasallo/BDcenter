@@ -4,6 +4,11 @@ IMAGENAME='flowcyto-env.sif'
 export IMAGENAME
 INSTANCENAME='flowcyto-env_'$USER
 
+if [ ! -f $IMAGENAME ]
+then
+	/bin/bash pull_singularity.sh 
+fi
+
 # Running a Rocker Singularity container (localhost, no password)
 # https://rocker-project.org/use/singularity.html
 
