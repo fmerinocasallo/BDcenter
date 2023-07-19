@@ -9,7 +9,9 @@ then
 	/bin/bash pull_singularity.sh 
 fi
 
-singularity instance start $IMAGENAME $INSTANCENAME
+# --bind $HOME:/run/user to connect GPUs 
+# [https://hackmd.io/@3B-tPhedTxynbhOI9PJ0Jg/ryM16ZSxi]
+singularity instance start --nv --cleanenv --bind $HOME:/run/user $IMAGENAME $INSTANCENAME
 
 singularity exec instance://$INSTANCENAME /bin/bash entrypoint.sh
 
