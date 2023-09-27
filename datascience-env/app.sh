@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gnome-terminal -e "bash start_singularity.sh"
+gnome-terminal -e "bash start-env.sh"
