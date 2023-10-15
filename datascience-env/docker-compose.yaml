@@ -14,7 +14,6 @@ services:
       - PUID=$RES_UID
       - PGID=$RES_GID
       - TZ=Etc/UTC
-      - TITLE=DataScience #optional
       - WEBPORT=${WEBPORT}
       - COMPOSE_PROJECT_NAME=${COMPOSE_PROJECT_NAME}
       - HOME_RESEARCHER=${HOME_RESEARCHER}
