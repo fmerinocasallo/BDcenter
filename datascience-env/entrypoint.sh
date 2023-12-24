@@ -10,6 +10,8 @@ echo -e '\n '$BOLDGREEN $SERVICENAME $NOCOLOR' \n'
 
 echo -e '\n List of servers available in this container\n'
 
-docker logs --tail 3 $COMPOSE_PROJECT_NAME
+docker compose exec --user jovyan $SERVICENAME jupyter server list
+
+echo -e '\n\n If no container is listed, run the command `jupyter server list` in the terminal'
 
 echo -e '\n Press `CTRL + D` To close the container \n'

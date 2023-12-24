@@ -29,6 +29,6 @@ bash ./entrypoint.sh
 # Print container version
 docker compose exec $SERVICENAME bash -c 'echo "$DOCKER_IMAGE_NAME:$VERSION";echo' 
 
-docker compose exec --user researcher $SERVICENAME bash
+docker compose exec --user jovyan $SERVICENAME bash
 
 docker compose down

@@ -5,14 +5,14 @@ services:
     image: gnasello/datascience-env:latest
     container_name: $COMPOSE_PROJECT_NAME
     volumes:
-      - $HOME_RESEARCHER:/home/researcher/researcher_home
-    working_dir: /home/researcher/
+      - $HOME_RESEARCHER:/home/jovyan/researcher_home
+    #working_dir: /home/researcher/
     ports:
       - $JLPORT:$JLPORT
     user: root
     hostname: $HOST_NAME
     environment:
-      - NB_USER=researcher
+      #- NB_USER=researcher
       - NB_UID=$RES_UID
       - NB_GID=$RES_GID
       - CHOWN_HOME=yes
