@@ -22,7 +22,7 @@ envsubst < env_usertemplate > .env
 
 docker compose up -d
 
-sleep 5
+#sleep 5
 
 bash ./entrypoint.sh
 

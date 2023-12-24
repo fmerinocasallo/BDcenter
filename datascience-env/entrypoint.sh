@@ -10,8 +10,10 @@ echo -e '\n '$BOLDGREEN $SERVICENAME $NOCOLOR' \n'
 
 echo -e '\n List of servers available in this container\n'
 
-docker compose exec --user jovyan $SERVICENAME jupyter server list
+echo -e '\n '$GREEN JupyerLab $NOCOLOR' \n'
 
-echo -e '\n\n If no container is listed, run the command `jl` in the terminal'
+#docker compose exec --user jovyan $SERVICENAME jupyter server list
+
+echo -e '\n If no container is listed, run the command `jl` in the terminal. \n It might need a few seconds to startup the server. \n'
 
 echo -e '\n Press `CTRL + D` To close the container \n'
