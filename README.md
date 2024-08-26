@@ -18,7 +18,7 @@ Close the container with:
 
 ## docker-compose approach
 
-Be aware that the user ```researhcer``` within you Docker container won't share the same ID as the host user!
+Be aware that the user ```researcher``` within you Docker container won't share the same ID as the host user!
 
 From the project folder, run the command below:
 
